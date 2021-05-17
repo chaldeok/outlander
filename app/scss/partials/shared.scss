@@ -1,0 +1,25 @@
+body {
+  background-color: $bg-body;
+  font-family: $font-primary;
+  letter-spacing: -0.3px;
+}
+
+.main-container {
+  width: 100%;
+  max-width: $max-width;
+  margin: 0 auto;
+  //padding: 0 $spacing;
+}
+
+a {
+  transition: color .23s ease-out;
+}
+
+.test {
+  height: 100vh;
+  background-color: pink;
+}
+.test-green {
+  height: 100vh;
+  background-color: green;
+}
