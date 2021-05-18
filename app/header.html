@@ -88,7 +88,11 @@
 
       <div class="main-logo">
         <a href="index.html">
-          <img src="./img/mmc-logo.jpeg" alt="MMC Logo">
+          <picture>
+            <source media="(min-width: 415px)" srcset="./img/mmc-logo.jpeg"/>
+            <source media="(max-width: 414px)" srcset="./img/mmc-logo-mob.png"/>
+            <img src="./img/mmc-logo-mob.jpeg" alt="MMC Logo" title="Перейти на главную страницу"/>
+          </picture>
         </a>
       </div>
     </div>

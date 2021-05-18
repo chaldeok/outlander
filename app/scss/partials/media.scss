@@ -1,6 +1,7 @@
 $desktop-1280: 1280px;
 $desktop-1279: 1279px;
 $desktop-1023: 1023px;
+$desktop-959: 959px;
 $tablet-767: 767px;
 $mobile-413: 413px;
 
@@ -14,14 +15,21 @@ $mobile-413: 413px;
 
 // from 1024 to 1279
 @mixin media-desktop-m {
-  @media(max-width: $desktop-1279) {
+  @media (max-width: $desktop-1279) {
     @content
   }
 }
 
-// from 768 to 1023
+// from 960 to 1023
 @mixin media-desktop-s {
-  @media (max-width: $desktop-1023) {
+  @media (max-width: $desktop-1023){
+    @content
+  }
+}
+
+// from 768 to 959
+@mixin media-tablet-l {
+  @media (max-width: $desktop-959) {
     @content
   }
 }
