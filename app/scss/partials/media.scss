@@ -5,35 +5,30 @@ $desktop-959: 959px;
 $tablet-767: 767px;
 $mobile-413: 413px;
 
-
 // >= 1280
 @mixin media-desktop-l {
   @media (min-width: $desktop-1280) {
     @content
   }
 }
-
 // from 1024 to 1279
 @mixin media-desktop-m {
   @media (max-width: $desktop-1279) {
     @content
   }
 }
-
 // from 960 to 1023
 @mixin media-desktop-s {
   @media (max-width: $desktop-1023){
     @content
   }
 }
-
 // from 768 to 959
 @mixin media-tablet-l {
   @media (max-width: $desktop-959) {
     @content
   }
 }
-
 // from 414 to 767
 @mixin media-tablet {
   @media (max-width: $tablet-767) {

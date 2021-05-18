@@ -1,0 +1,73 @@
+.promo__content {
+  display: flex;
+  flex-direction: column;
+  background-image: url("/img/promo-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-height: 597px;
+  padding: 126px 0 105px 0;
+
+  @include media-tablet {
+    padding: 90px 0 105px 0;
+  }
+}
+
+.promo__car-brand {
+  width: 594px;
+  height: 136px;
+  padding: 0 16px 30px 67px;
+  border-bottom: 5px solid red;
+
+  @include media-tablet {
+    width: 80%;
+  }
+
+  @include media-mobile {
+    width: 90%;
+    padding: 0 40px 15px 40px
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.promo__disclaimer {
+  font-size: 48px;
+  color: white;
+  padding: 0 0 0 67px;
+  line-height: 62.4px;
+
+  @include media-tablet-l {
+    font-size: 35px;
+  }
+
+  @include media-tablet {
+    margin: 20px 0;
+    padding: 0 20px 0 67px;
+  }
+
+  @include media-mobile {
+    font-size: 24px;
+    line-height: 32px;
+    padding: 0 40px 0 40px
+  }
+}
+
+.promo__description {
+  width: 672px;
+  font-size: 14px;
+  color: white;
+  padding: 0 0 0 67px;
+  line-height: 18.9px;
+
+  @include media-tablet {
+    width: fit-content;
+    padding: 0 0 0 67px;
+  }
+
+  @include media-tablet {
+    padding: 0 40px 0 40px
+  }
+}

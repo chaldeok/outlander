@@ -5,11 +5,27 @@ setTimeout(function () {
 }, 1000);
 "use strict";
 
+var mainMenu = document.querySelector(".main-header");
+
+window.onscroll = function () {
+  getStickyMenu();
+};
+
+var sticky = mainMenu.offsetTop;
+
+function getStickyMenu() {
+  if (window.pageYOffset > sticky) {
+    mainMenu.classList.add("sticky");
+  } else {
+    mainMenu.classList.remove("sticky");
+  }
+}
+"use strict";
+
 function burgerMenu() {
   var menu = document.querySelector('.burger-menu'),
       button = document.querySelector('.burger-menu__button'),
       menuBody = document.querySelector('.menu__body'),
-      links = document.querySelector('.burger-menu__link'),
       overlay = document.querySelector('.burger-menu__overlay');
   button.addEventListener('click', function (e) {
     e.preventDefault();

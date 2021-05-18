@@ -1,10 +1,10 @@
-.main-header {
+/*.main-header {
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-}
+}*/
 
 .main-header__content {
   position: relative;
@@ -141,6 +141,12 @@
   }
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
 .car-brand {
   flex-shrink: 0;
   display: flex;
@@ -157,14 +163,14 @@
 
 .main-logo {
   position: absolute;
-  top: 0;
+  top: 1px;
   right: 33px;
 
   @include media-desktop-m {
     right: 26px;
   }
 
-  @include media-mobile {
+  @media(max-width: 414px) {
     top: 4%;
     width: 40px;
   }

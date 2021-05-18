@@ -2,7 +2,6 @@ function burgerMenu() {
   const menu = document.querySelector('.burger-menu'),
     button = document.querySelector('.burger-menu__button'),
     menuBody = document.querySelector(('.menu__body')),
-    links = document.querySelector('.burger-menu__link'),
     overlay = document.querySelector('.burger-menu__overlay');
 
   button.addEventListener('click', (e) => {
