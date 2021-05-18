@@ -1,4 +1,4 @@
-const mainMenu = document.querySelector(".main-header");
+const mainMenu = document.querySelector(".main-header__row--menu");
 
 window.onscroll = () => {
   getStickyMenu()

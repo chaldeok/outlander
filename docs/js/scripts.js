@@ -5,7 +5,7 @@ setTimeout(function () {
 }, 1000);
 "use strict";
 
-var mainMenu = document.querySelector(".main-header");
+var mainMenu = document.querySelector(".main-header__row--menu");
 
 window.onscroll = function () {
   getStickyMenu();
