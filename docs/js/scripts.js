@@ -35,10 +35,10 @@ function burgerMenu() {
     toggleMenu();
   });*/
 
-  overlay.addEventListener('click', function (e) {
-    e.preventDefault();
-    toggleMenu();
-  });
+  /*  overlay.addEventListener('click', (e) => {
+      e.preventDefault();
+      toggleMenu();
+    });*/
 
   function toggleMenu() {
     menu.classList.toggle('burger-menu_active');

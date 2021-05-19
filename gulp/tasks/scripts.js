@@ -6,7 +6,12 @@ const concat = require('gulp-concat');
 const mode = require('gulp-mode')();
 const paths = require('../paths');
 
-const jsFiles = ['./././app/js/gallery.js', './././app/js/header-sticky.js', './././app/js/burger-menu.js'] // очередность подключения файлов
+const jsFiles = [
+  './././app/js/gallery.js',
+  './././app/js/header-sticky.js',
+  './././app/js/burger-menu.js',
+
+] // очередность подключения файлов
 
 const scripts = () => {
   return gulp.src(jsFiles)

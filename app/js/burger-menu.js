@@ -13,10 +13,10 @@ function burgerMenu() {
     toggleMenu();
   });*/
 
-  overlay.addEventListener('click', (e) => {
+/*  overlay.addEventListener('click', (e) => {
     e.preventDefault();
     toggleMenu();
-  });
+  });*/
 
   function toggleMenu() {
     menu.classList.toggle('burger-menu_active');
