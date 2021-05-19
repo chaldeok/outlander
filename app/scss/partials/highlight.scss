@@ -23,13 +23,6 @@
   }
 }
 
-.desc__left {
-
-}
-.desc__right {
-
-}
-
 .options-img {
   img {
     width: 100%;
@@ -80,10 +73,10 @@
 }
 
 @include media-tablet-l {
-  .order-1 {
+  .highlight-order-1 {
     order: 1;
   }
-  .order-2 {
+  .highlight-order-2 {
     order: 2;
   }
 }

@@ -4,7 +4,7 @@
     <title>Mitsubishi Outlander</title>
     <meta name="description" content="Mitsubishi Outlander, купить джип, еще что-то умное для SEO">
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <!-- Сюда будет всталена ссылка на файл стилей -->
     <!-- inject:css -->
@@ -18,15 +18,11 @@
     @@include('available-colors.html')
     @@include('gallery.html')
     @@include('equipment.html')
+    @@include('table.html')
     @@include('footer.html')
 
     <!-- Сюда будет всталена ссылка на файл скриптов -->
     <!-- inject:js -->
     <!-- endinject -->
-    <script>
-      window.addEventListener('load', function() {
-        baguetteBox.run('.grid-gallery');
-      });
-    </script>
   </body>
 </html>

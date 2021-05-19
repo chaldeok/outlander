@@ -14,3 +14,22 @@ body {
 a {
   transition: color .23s ease-out;
 }
+
+.title-section,
+.text-section {
+  color: white;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.title-section {
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.text-section {
+  font-size: 16px;
+  margin-bottom: 40px;
+}

@@ -10,6 +10,7 @@ const jsFiles = [
   './././app/js/gallery.js',
   './././app/js/header-sticky.js',
   './././app/js/burger-menu.js',
+  './././app/js/anchors.js',
 
 ] // очередность подключения файлов
 

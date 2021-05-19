@@ -1,6 +1,7 @@
 @import "./partials/fonts";
 @import "./partials/normalize";
 @import "./partials/variables";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import "./partials/basic";
 @import "./partials/mixins";
 @import "./partials/media";
@@ -14,4 +15,5 @@
 //@import "./partials/baguette-box";
 @import "./partials/gallery";
 @import "./partials/equipment";
+@import "./partials/table";
 @import "./partials/footer";

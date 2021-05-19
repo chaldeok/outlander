@@ -1,0 +1,34 @@
+.main-footer__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding:48px;
+  border-top: 1px solid white;
+}
+
+.main-footer__logo {
+  width: 80px;
+  margin-bottom: 20px;
+
+  a {
+    display: inline-block;
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.main-footer__text {
+  width: 60%;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+
+  @include media-tablet {
+    width: 100%;
+  }
+}

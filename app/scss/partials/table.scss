@@ -1,0 +1,33 @@
+.char-table__content {
+  background-color: black;
+}
+
+.table-wrapper {
+  overflow-x: scroll;
+  padding: 10px 60px;
+
+  @include media-tablet {
+    padding: 15px
+  }
+
+  tr {
+    display: flex;
+    td:first-child,
+    th:first-child {
+      width: 60%;
+      min-width: 190px;
+      color: white;
+
+    }
+    td:nth-child(2),
+    td:nth-child(3),
+    th:nth-child(2),
+    th:nth-child(3) {
+      width: 20%;
+      min-width: 150px;
+      text-align: center;
+      color: white;
+      text-transform: uppercase;
+    }
+  }
+}
